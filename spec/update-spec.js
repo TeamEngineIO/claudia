@@ -667,7 +667,6 @@ describe('update', () => {
 				.then(done, done.fail);
 		});
 	});
-
 	describe('timeout option support', () => {
 		beforeEach(done => {
 			fsUtil.copy('spec/test-projects/hello-world', workingdir, true);
